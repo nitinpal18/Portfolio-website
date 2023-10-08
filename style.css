@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 66);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(2, 2, 43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(114, 114, 205);
+    font-size: 1.03rem;
+}
+
+main hr{
+    border: 0px;
+    background: #5a54cb;
+    height: 1.2px;
+    margin: 60px 80px;
+}
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+} 
+
+.leftSection .btn{
+    padding: 12px;
+    background: #131556;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover{
+    padding: 12px;
+    color: #131556;
+    background: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.rightSection img{
+    width: 40rem;
+}
+
+.purple{
+    color: rgb(137, 107, 224);
+}
+.text-gray{
+    color: gray
+}
+.purple:hover{
+    color: rgb(99, 63, 207);
+    font-size: 3.1rem;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.school{
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: cursive;
+}
+.school li{
+    margin: 8px;
+    color: wheat;
+}
+
+.college {
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.college li {
+    margin: 8px;
+    color: wheat;  
+}
