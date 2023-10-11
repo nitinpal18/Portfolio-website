@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 50px;
+    /* background-color: rgb(8, 4, 43); */
+    background-color: rgb(27, 55, 96);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 30px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.container{
+    margin: 10px;
+}
+
+.purple{
+    color: rgb(60, 136, 242);
+}
+.purple:hover{
+    color: rgb(119, 170, 242);
+    font-family: cursive;
+    font-size: 45px;
+}
+
+.firstSection{
+    margin: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.secondSection{
+    font-family: monospace;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.text-gray{
+    color: gray;
+    font-size: 20px;
+}
+.school{
+    font-family: cursive;
+    margin: 20px;
+}
+.college{
+    font-family: cursive;
+    margin: 40px 20px;
+}
+
+.thirdSection{
+    font-family: monospace;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.techskill{
+    font-family: cursive;
+    margin: 40px 20px;
+}
+
+.sublist{
+    margin: 5px 20px;
+    font-size: 20px;
+}
+
+li{
+    margin-left: 30px;
+}
+
+.softskill{
+    font-family: cursive;
+    margin: 40px 20px;
+}

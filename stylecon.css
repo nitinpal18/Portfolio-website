@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #030847, #aBf5ff);
+}
+
+.inner-box {
+    /* border: 2px red solid; */
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding:  20px 40px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #212121;
+}
+
+.contact-header p {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.contact-body {
+    margin: 20px 0;
+}
+
+.contact-body p {
+    margin: 10px 0;
+}
+
+.contact-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.contact-body p input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    /* margin-top: 4px; */
+    margin: 5px 0;
+}
+
+.contact-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-body p input[type="submit"]:hover{
+    background-color: #13547f;
+}

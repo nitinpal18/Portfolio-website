@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: rgb(3, 3, 66);
+    background-color: rgb(2, 2, 43);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: rgb(2, 2, 43);
+    background-color: rgb(3, 3, 66);
     display: flex;
     justify-content: space-around;
     align-items: center;
